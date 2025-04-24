@@ -1,0 +1,20 @@
+{
+  "nom": "Centrale PUY DE D\u00d4ME",
+  "mise_en_service": "2023-06-01",
+  "portefeuille": "VALSOL",
+  "puissance_kwc": 1200,
+  "contact": {
+    "client": "EDF Renouvelables",
+    "ga": "Jean Dupont",
+    "mail": "jean.dupont@example.com",
+    "tel": "0601020304"
+  },
+  "adresse": {
+    "rue": "Chemin du Soleil",
+    "cp": "63000",
+    "ville": "Clermont-Ferrand",
+    "region": "Auvergne-Rh\u00f4ne-Alpes",
+    "latitude": 45.777,
+    "longitude": 3.087
+  }
+}

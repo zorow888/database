@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tableau de bord</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="menu-section">
+      <div class="menu-title">ACCUEIL</div>
+      <ul class="menu-list">
+        <li onclick="changerSection('projets')">Projets</li>
+        <li onclick="changerSection('societes')">Sociétés</li>
+        <li onclick="changerSection('contrats')">Contrats</li>
+        <li onclick="changerSection('vues')">Vues</li>
+      </ul>
+    </div>
+  
+    <div class="menu-section">
+      <div class="menu-title">CARTE</div>
+    </div>
+  
+    <div class="menu-section">
+      <div class="menu-title">ANALYSE</div>
+      <ul class="menu-list">
+        <li onclick="changerSection('performance')">Performance</li>
+        <li onclick="changerSection('topflop')">Top/Flop</li>
+      </ul>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-title">Exploitation/div>
+      <ul class="menu-list">
+        <li onclick="changerSection('actif')">Actif de production</li>
+        <li onclick="changerSection('maincourante')">Main courante</li>
+      </ul>
+    </div>
+
+  </aside>
+  
+  <aside class="sidebar secondary" id="sousMenuProjet" style="display: none;">
+  
+    <div class="menu-section submenu-projet" >
+      <div class="menu-title">PROJET</div>
+      <ul class="menu-list">
+        <li onclick="changerOnglet('descriptif')">Descriptif</li>
+        <li onclick="changerOnglet('exploitation')">Exploitation</li>
+        <li onclick="changerOnglet('enedis')">Enedis / EDF</li>
+        <li onclick="changerOnglet('enviro')">Enviro</li>
+        <li onclick="changerOnglet('construction')">Construction</li>
+        <li onclick="changerOnglet('doe')">DOE</li>
+        <li onclick="changerOnglet('productible')">Productible</li>
+        <li onclick="changerOnglet('SPV')">SPV</li>
+        <li onclick="changerOnglet('Contrat')">Contrat</li>
+        <li onclick="changerOnglet('Assurance')">Assurance</li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="dropdown">
+      <label>Choisissez une centrale :</label>
+      <select onchange="chargerCentrale(this.value)">
+        <option value="data/centrale_demo.json"></option>
+      </select>
+    </div>
+
+    <div id="contenu"></div>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+  
+</body>
+</html>

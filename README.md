@@ -412,7 +412,7 @@ V2
 		Ø Suivi déchets (bordereaux BSDD)
 		Ø Historique échanges avec DREAL/ICPE
 		Ø Garanties financières environnementales
-![image](https://github.com/user-attachments/assets/b96ae4c8-3639-4ca6-b94d-cc3ce4b7df1a)
+
 
 
 	

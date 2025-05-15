@@ -39,7 +39,7 @@ Interface WEB
 → Accessible à tous (notamment les chargés d'exploitation).
 
 → Interface construite comme tel : 
-![image](https://github.com/user-attachments/assets/57b92e62-0e25-4c18-8b92-6b449289487b)
+
 
 
 
